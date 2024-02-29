@@ -1,0 +1,20 @@
+.inform__container {
+  max-width: 1470px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 54px 20px;
+}
+
+.card {
+  max-width: 373px;
+  max-height: 200px;
+  
+}
