@@ -124,9 +124,9 @@ span {
 } */
 
 .inform__button-arrow {
-  background: url("../img/down-arrow-1.png") no-repeat;
-  width: 18px;
-  height: 18px;
+  /* background: url("../img/down-arrow-1.png") no-repeat; */
+  /* width: 18px; */
+  /* height: 18px; */
   margin: 0 auto;
   transition: transform 0.3s ease 0s;
   /* transform: rotate(-180deg); */
@@ -135,7 +135,7 @@ span {
 }
 
 .inform__button-arrow_close {
-  background: url("../img/down-arrow-2.png") no-repeat;
+  /* background: url("../img/down-arrow-2.png") no-repeat; */
   transform: rotate(-180deg);
 }
 
