@@ -70,9 +70,18 @@ span {
 
 }
 
+/* .card__slaider_active {
+  opacity: 0;
+  visibility: hidden;
+ 
+} */
+
 .card__slaider {
   display: block;
- 
+}
+
+.card__slider_test {
+  display: none;
 }
 
 .inform__footer {
@@ -104,7 +113,7 @@ span {
   /* margin-top: 56px; */
 }
 
-.inform__button-none_close {
+/* .inform__button-none_close {
   opacity: 0;
   visibility: hidden;
 }
@@ -112,6 +121,28 @@ span {
 .inform__button-none_open {
   opacity: 1;
   visibility: visible;
+} */
+
+.inform__button-arrow {
+  background: url("../img/down-arrow-1.png") no-repeat;
+  width: 18px;
+  height: 18px;
+  margin: 0 auto;
+  transition: transform 0.3s ease 0s;
+  /* transform: rotate(-180deg); */
+
+
+}
+
+.inform__button-arrow_close {
+  background: url("../img/down-arrow-2.png") no-repeat;
+  transform: rotate(-180deg);
+}
+
+.inform__button-none_open {
+  opacity: 1;
+  visibility: visible;
+  /* transform: rotate(-180deg); */
 }
 
 
