@@ -70,11 +70,7 @@ span {
 
 }
 
-/* .card__slaider_active {
-  opacity: 0;
-  visibility: hidden;
- 
-} */
+
 
 .card__slaider {
   display: block;
@@ -92,10 +88,7 @@ span {
   gap: 20px;
 }
 
-/* .inform__button_none {
- 
-  margin-bottom: 20px;
-} */
+
 
 .inform__button {
   width: 275px;
@@ -108,41 +101,31 @@ span {
   padding-top: 23px;
   padding-bottom: 22px;
   text-align: center;
-  /* margin-bottom: 20px; */
+ 
   transition: opacity 0.2s ease;
-  /* margin-top: 56px; */
+  
 }
 
-/* .inform__button-none_close {
-  opacity: 0;
-  visibility: hidden;
-}
 
-.inform__button-none_open {
-  opacity: 1;
-  visibility: visible;
-} */
 
 .inform__button-arrow {
-  /* background: url("../img/down-arrow-1.png") no-repeat; */
-  /* width: 18px; */
-  /* height: 18px; */
+ 
   margin: 0 auto;
   transition: transform 0.3s ease 0s;
-  /* transform: rotate(-180deg); */
+ 
 
 
 }
 
 .inform__button-arrow_close {
-  /* background: url("../img/down-arrow-2.png") no-repeat; */
+ 
   transform: rotate(-180deg);
 }
 
 .inform__button-none_open {
   opacity: 1;
   visibility: visible;
-  /* transform: rotate(-180deg); */
+ 
 }
 
 
