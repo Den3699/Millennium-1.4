@@ -7,6 +7,8 @@
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
+  display: grid;
+  justify-content: center;
  
 }
 
@@ -17,6 +19,7 @@
   color: rgb(42, 35, 103);
   margin-top: 81px;
   margin-bottom: 80px;
+  
 }
 
 span {
@@ -31,13 +34,17 @@ span {
   grid-template-columns: 1fr 1fr 1fr;
   gap: 54px 20px;
   margin-bottom: 22px;
+ 
+ 
 }
 
 .card {
-  min-width: 373px;
-  min-height: 200px;
+  width: 373px;
+  height: 200px;
   padding-left: 15px;
   box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.15);
+  opacity: 1;
+  transition: opacity 3s;
 
   
 }
@@ -72,13 +79,17 @@ span {
 
 
 
-.card__slaider {
-  display: block;
+.card__slaider:nth-child(n+4) {
+  overflow: hidden;
+  opacity: 0;
+  transition: opacity 2s;
+  height: 0;
+ 
 }
 
-.card__slider_test {
+/* .card__slider_test {
   display: none;
-}
+} */
 
 .inform__footer {
   display: flex;
@@ -136,7 +147,9 @@ span {
   .cards {
     gap: 40px 20px;
     grid-template-columns: 1fr 1fr;
-   
+    /* align-content: center;
+    align-items: center;
+    */
   }
 
   .inform__title {
@@ -144,6 +157,15 @@ span {
     margin-top: 41px;
     margin-bottom: 60px;
   }
+
+  .card__slaider:nth-child(n+3) {
+    overflow: hidden;
+    opacity: 0;
+    transition: opacity 2s;
+    height: 0;
+   
+  }
+  
   
 
 }
@@ -158,4 +180,18 @@ span {
     margin-top: 31px;
     margin-bottom: 57px;
   }
+
+  .card__slaider-mobile {
+    display: none;
+  }
+
+  .inform__button-arrow {
+ 
+   display: none;
+   
+  
+  
+  }
+
+
 }
