@@ -139,6 +139,10 @@ span {
  
 }
 
+.swiper-slide {
+  display: none;
+}
+
 
 
 
@@ -165,24 +169,33 @@ span {
     height: 0;
    
   }
+
+  .wrapper {
+    display: none;
+  }
   
   
 
 }
 
 @media (width < 768px) {
-  .cards {
+  /* .cards {
     grid-template-columns: 1fr;
-  }
+  } */
+
+  /* .card__slaider {
+    display: none;
+  } */
 
   .inform__title {
     font-size: 18px;
     margin-top: 31px;
     margin-bottom: 57px;
+    text-align: center;
   }
 
   .card__slaider-mobile {
-    display: none;
+    display: none; 
   }
 
   .inform__button-arrow {
@@ -193,5 +206,42 @@ span {
   
   }
 
+  .cards {
+    display: none;
+  } 
+   
+  .wrapper {
+    display: block;
+  }
+
+  .swiper {
+    width: 100%;
+    height: 110%;
+
+  }
+
+  .swiper-slide {
+    background: #fff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .swiper__wrapper {
+    margin-bottom: 30px;
+  }
+
+  .card {
+    margin-bottom: 30px;
+  }
+
+  .inform__button {
+    margin-top: 30px;
+    text-align: center;
+  }
+
+ 
+  
+  
 
 }

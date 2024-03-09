@@ -10,6 +10,8 @@
 //   slaiderButton.classList.toggle("inform__button-arrow_close");
 // });
 
+
+
 let card = document.querySelectorAll('.card');
 let slaiderButton = document.querySelector('.inform__button-arrow');
 
@@ -20,3 +22,9 @@ slaiderButton.addEventListener('click', function () {
     slaiderButton.classList.toggle('inform__button-arrow_close');
 
 }); 
+
+new Swiper('.swiper',{
+  pagination: {
+    el: '.swiper-pagination',
+  }
+});
